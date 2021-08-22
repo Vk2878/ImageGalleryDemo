@@ -19,7 +19,7 @@ namespace ImageGalleryDemo
         DataFetcher datafetch = new DataFetcher();
         List<ImageItem> imagesList;
         int checkedItems = 0;
-        public object imagePdfDocument;
+        C1.C1Pdf.C1PdfDocument imagePdfDocument = new C1.C1Pdf.C1PdfDocument();
 
         public ImageGallery()
         {
